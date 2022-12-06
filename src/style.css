@@ -1,0 +1,64 @@
+** {
+    box-sizing: border-box;
+}
+
+.toDo {
+    display: flex;
+    justify-content: center;
+}
+
+.inp {
+    width: 300px;
+    height: 30px;
+    border: 2px solid blue;
+    font-size: 20px;
+    border-radius: 7px;
+}
+
+.btn {
+    margin-left: 5px;
+    border: 2px solid blue;
+    color: blue;
+    font-size: 16px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.text {
+    display: flex;
+    background-color: rgb(167, 167, 252);
+    color: rgb(0, 0, 88);
+    border-radius: 5px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.text1 {
+    display: flex;
+    gap: 30px;
+}
+
+.deleteBtn {
+    border: none;
+    background-color: rgb(167, 167, 252);
+    color: rgb(0, 0, 88);
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.red {
+    box-shadow: 0px 5px 10px 1px red;
+}
+
+.blur {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.default {
+
+}
